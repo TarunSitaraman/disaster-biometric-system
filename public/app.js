@@ -238,7 +238,7 @@ class DisasterBioApp {
         if (!statusElement) return;
 
         const indicator = statusElement.querySelector('.status-indicator');
-        const text = statusElement.querySelector('span:last-child') || statusElement;
+        const text = statusElement.querySelector('span:last-child');
 
         if (this.biometricStatus.fingerprint && this.biometricStatus.photo) {
             indicator.className = 'status-indicator success';
@@ -399,7 +399,7 @@ class DisasterBioApp {
             <div class="victim-profile">
                 <div class="profile-header">
                     <div class="profile-photo">
-                        <i class="fas fa-user-circle" style="font-size: 4rem; color: #ddd;"></i>
+                        <i class="fas fa-user-circle" style="font-size: 4rem; color: var(--color-text-muted);"></i>
                     </div>
                     <div class="profile-info">
                         <h2>${victim.name}</h2>
