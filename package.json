@@ -1,0 +1,28 @@
+{
+  "name": "disaster-biometric-system",
+  "version": "1.0.0",
+  "description": "Portable Biometric System for Disaster Management",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 3000",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "disaster-management",
+    "biometric-identification",
+    "emergency-response",
+    "hackathon",
+    "pwa",
+    "offline-first",
+    "humanitarian-tech"
+  ],
+  "author": "Hackathon Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/disaster-biometric-system"
+  },
+  "homepage": "https://disaster-bio.vercel.app"
+}
